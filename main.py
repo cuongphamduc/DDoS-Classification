@@ -128,6 +128,7 @@ if __name__ == "__main__":
     plt.title("Plot of accuracy vs epoch for train and test dataset")
     plt.ylabel("accuracy")
     plt.xlabel("epoch")
+    plt.legend(["train", "test"], loc="lower right")
     plt.savefig("image/" + model_name + "_acc_plot.png")
     plt.show()
 
