@@ -1,4 +1,4 @@
-##Code for Network Administration course, using Deep Neural Network to classify DDoS Attack's type in NSL-KDD Dataset
+## Code for Network Administration course, using Deep Neural Network to classify DDoS Attack's type in NSL-KDD Dataset
 
 Use Anaconda or Miniconda to create environment for run project with command:
 
@@ -6,7 +6,7 @@ Use Anaconda or Miniconda to create environment for run project with command:
 conda env create -f environment.yml
 ```
 
-###Accuracy and loss with VGG:
+### Accuracy and loss with VGG:
 
 |           Accuracy            |              Loss              |
 |:-----------------------------:|:------------------------------:|
@@ -14,7 +14,7 @@ conda env create -f environment.yml
 
 Inference time : ~32ms
 
-###Accuracy and loss with DenseNet:
+### Accuracy and loss with DenseNet:
 
 |              Accuracy              |                Loss                 |
 |:----------------------------------:|:-----------------------------------:|
