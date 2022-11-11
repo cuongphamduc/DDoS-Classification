@@ -83,8 +83,7 @@ if __name__ == "__main__":
     print(train_data["label"].value_counts())
 
     s = ["normal", "back", "land", "neptune", "pod", "smurf", "teardrop", "mailbomb", "processtable", "udpstorm",
-         "apache2",
-         "worm"]
+         "apache2", "worm"]
     train_data = train_data.loc[train_data["label"].isin(s)]
     print(train_data["label"].value_counts())
 
